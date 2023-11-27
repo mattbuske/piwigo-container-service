@@ -7,7 +7,6 @@ site_dir: dist
 extra:
     version: 0.1.0
 plugins:
-  - blog
   - search
   - macros
   - tags
@@ -51,4 +50,4 @@ theme:
         icon: material/light-switch-off
         name: Switch to light mode
 'nav':
-    - 'Home': 'index.md'
+    - 'Readme': 'index.md'

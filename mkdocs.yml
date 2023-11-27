@@ -1,0 +1,54 @@
+site_name: Piwigo Container Service in Podman
+site_description: Piwigo Container Service in Podman for Easy replication and updates
+site_author: Matthew E Buske
+copyright: Matthew E Buske 2023
+docs_dir: docs
+site_dir: dist
+extra:
+    version: 0.1.0
+plugins:
+  - blog
+  - search
+  - macros
+  - tags
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - attr_list
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+theme:
+    name: material
+    features:
+        - navigation.instant
+        - navigation.tracking
+        - navigation.tabs
+        #- navigation.tabs.sticky
+        - navigation.indexes
+        - navigation.footer
+        - navigation.top
+        - content.tabs
+        - content.tabs.link
+        - content.code.copy
+        - search.suggest
+        - search.highlight
+        - search.share
+    palette:
+      # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: black
+      toggle:
+        icon: material/light-switch
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      toggle:
+        icon: material/light-switch-off
+        name: Switch to light mode
+'nav':
+    - 'Home': 'index.md'

@@ -2,6 +2,7 @@
 
 ## Pre-Requisites 
 **NOTE:** This is tested and verified to work if the same versions listed below are used, otherwise, things may not be exactly the same!
+
 1. AlmaLinux OS == 9.3 
 2. Latest version of Podman installed
 3. The latest version of podman-compose installed (docker-compose)
